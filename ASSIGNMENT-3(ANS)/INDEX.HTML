@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>www.JobSearch.com</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>JobSearch.com</h1>
+        <nav>
+            <h2>Create Your Account</h2>
+            <h4 id="heading">* Required Information</h4>
+        </nav>
+        <div>
+            <h4>Basic Information</h4>
+            <ul>
+                <form action="" get="post"></form>
+                <li>
+                    <!-- Email section -->
+                    <label for="Email">Email <span>*</span>: </label>
+                    <input type="email" id="Email" name="Email" placeholder="Enter Your Email" autofocus required>
+                </li><br>
+                <li>
+                    <!-- Password section -->
+                    <label for="Password">Password <span>*</span>: </label>
+                    <input type="password" name="password" id="password" required>
+                </li><br>
+                <li>
+                    <label id="retype" for="Retype">Retype password <span>*</span>:</label>
+                    <input type="password" name="conformation pass" id="Retype" placeholder="Conform Your password" required>
+                </li><br>
+                <li>
+                    <!-- Name Section -->
+                    <label for="">First Name <span>*</span>:</label>
+                    <input type="text" name="first name" id="first name" required>
+                </li><br>
+                <li>
+                    <label for="last name">Last Name <span>*</span>:</label>
+                    <input type="text" name="last name" id="last name" required>
+                </li><br>
+                <li>
+                    <!-- Phone Number Section -->
+                    <label for="ph">Phone Number <span>*</span>:</label>
+                    <input type="number" name="Phone Number" id="ph" placeholder="999-999-9999" required>
+                </li><br>
+                <li>
+                    <!-- Address section  -->
+                    <label for="Address">Address <span>*</span>:</label>
+                    <input type="text" name="Address" id="Address" required>
+                </li><br>
+                <li>
+                    <!-- city section -->
+                    <label for="">City <span>*</span>:</label>
+                    <input type="text" name="city Name" id="City" required>
+                </li><br>
+                <li>
+                    <!-- Province Section -->
+                    <label for="Province">Province <span>*</span>:</label>
+                    <select name="Province" id="Province" required>
+                        <option value="andhra-Pradesh">Andhra-Pradesh</option>
+                        <option value="Andhra-Pradesh">Arunachal-Pradesh</option>
+                        <option value="Assam">Assam</option>
+                        <option value="Bihar">Bihar</option>
+                        <option value="chhattisgarh">chhattisgarh</option>
+                        <option value="Goa">Goa</option>
+                        <option value="Gujrat">Gujrat</option>
+                        <option value="Haryana">Haryana</option>
+                        <option value="Himachal-Pradesh">Himachal-Pradesh</option>
+                        <option value="Jharkhand">Jharkhand</option>
+                        <option value="Karnataka">Karnataka</option>
+                        <option value="Kerala">Kerala</option>
+                        <option value="Madhya-Pradesh">Madhya-Pradesh</option>
+                        <option value="Maharastha">Maharastha</option>
+                        <option value="Manipur">Manipur</option>
+                        <option value="Meghalaya">Meghalaya</option>
+                        <option value="Mizoram">Mizoram</option>
+                        <option value="Nagaland">Nagaland</option>
+                        <option value="Odisha">Odisha</option>
+                        <option value="Punjab">Punjab</option>
+                        <option value="Rajasthan">Rajasthan</option>
+                        <option value="Sikkim">Sikkim</option>
+                        <option value="Tamil-Nadu">Tamil-Nadu</option>
+                        <option value="Telangana">Telangana</option>
+                        <option value="Tripura">Tripura</option>
+                        <option value="Uttarakhand">Uttarakhand</option>
+                        <option value="Uttar-Pradesh">Uttar-Pradesh</option>
+                        <option value="West-Bengal">West-Bengal</option>
+                    </select>
+                </li><br>
+                <li>
+                    <!-- Country Section -->
+                    <label for="Country">Country <span>*</span>:</label>
+                    <input type="text" name="Country" id="Country" required>
+                </li><br>
+            </ul>
+        </div>
+        <div>
+            <h4>Education</h4>
+            <ul>
+                <form action="" method="post">
+                    <li>
+                       <!-- School section  -->
+                       <label for="School">School <span>*</span>:</label>
+                       <input type="text" placeholder="School Name" name="School Name" id="School" required>
+                    </li><br>  
+                    <li>
+                        <!-- Program Section -->
+                        <label for="Program">Program <span>*</span>:</label>
+                        <input type="text" name="Program Enrolled" id="Program" required>
+                    </li><br>
+                    <li>
+                        <!-- Educational Level -->
+                        <label for="Education">Education Level <Span>*</Span>:</label>
+                        <select name="Education"id="Education" required>
+                            <option value="Board Passed">Board Passed</option>
+                            <option value="Graduated">Graduated</option>
+                            <option value="Masters complited">Masters complited</option>
+                       <select>                   
+                  </li><br>
+                  <!-- Educational Status -->
+                  <fieldset>
+                      <legend>Educational Status</legend>
+                      <input type="radio" name="Educational Status" value="Graduated" id="Graduated" >
+                      <label class="fieldset"  for="Graduated">Graduated</label><br>
+                      <input type="radio" name="Educational Status" value="In Progress" id="In Progress">
+                      <label class="fieldset" for="In Progress">Currently Employed</label><br>
+                      <input type="radio" name="Educational Status" value="Did Not Graduated" id="Did Not Graduated">
+                      <label class="fieldset" for="Did Not Graduated">Did Not Graduated</label><br>
+                    </fieldset><br>
+                  <li>
+                    <!-- Graduation Date -->
+                    <label for="Graduation Date">Graduation Date :</label>
+                    <input type="text" name="Graduation Date" id="Graduation Date" placeholder="dd/mm/yy">
+                  </li><br>
+                </form>
+            </ul>
+        </div>
+        <div>
+            <h4>Work Expireance</h4>
+            <ul>
+                <form action="" method="post">
+                    <li>
+                        <!-- Tech Stack section -->
+                        <label for="Tech Stack">Tech stack :</label>
+                        <input type="text" name="Tech Stack" id="Tech Stack">
+                    </li><br>
+                    <li>
+                        <!-- job title section -->
+                        <label for="Job Title">Job Title :</label>
+                        <input type="text" nmae="Job Title" id="Job Title">
+                    </li><br>
+                    <li>
+                        <!-- job Duty section -->
+                        <label id="textarea" for="Job Duty">Job Duty :</label>
+                        <textarea name="Duty Description" id="Job Duty" rows="5"></textarea>
+                    </li><br>
+                    <li>
+                        <!-- worked Years section -->
+                        <label for="Worked Years">Worked Years :</label>
+                        <select name="Worked Years" id="Worked Years">
+                            <option value="Freasher">Freasher</option>
+                            <option value="Employed">Employed</option>
+                            <option value="1-5 Years Of Expireance">1-5 Years Of Expireance</option>
+                            <option value="5+ Years Of Expireance">5+ Years Of Expireance</option>
+                        </select>
+                    </li><br>
+                </form>
+            </ul>
+        </div>
+        <button type="submit">Submit</button>
+</body>
+</html>
