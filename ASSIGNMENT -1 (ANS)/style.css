@@ -1,0 +1,17 @@
+body{
+    background-color: #CBCE91FF ;
+    color : #EA738DFF;
+}
+h2{
+    font-size: 22px;
+    font-style: oblique;
+    padding-left: 20px;
+}
+h3{
+    font-style: oblique;
+    padding-left: 20px;  
+}
+li{
+  font-size: 20px  ;
+  font-style:italic;
+}
